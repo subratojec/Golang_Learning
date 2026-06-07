@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Lets Start the Guessing game"
+expected="Number is just right"
+while true ; do
+	output=$(go run guess.go | tail -n 1)
+	if  [ "$output" == "$expected" ]; then
+		echo "Output Matched"
+		break
+	else
+		echo "Output did not match,Retrying.."
+	fi
+done
