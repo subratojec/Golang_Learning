@@ -10,3 +10,4 @@ func main() {
 	var exit = strings.Contains(command,"outside")
 	fmt.Println("You leave the cave:", exit)
 }
+// var wearShades

@@ -1,0 +1,6 @@
+func (k kelvin) celsius() celsius {
+//
+}
+
+this is the format of the Method,
+this how we make method..

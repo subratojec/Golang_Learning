@@ -15,7 +15,9 @@ func main() {
 	// 	default:
 	// 		fmt.Println("Didn't quite get that.")
 	// }
-	//
+
+
+	// Switch can use the number.
 	day := 0
 	switch day {
 		case 1:

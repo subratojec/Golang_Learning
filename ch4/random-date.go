@@ -7,6 +7,7 @@ import (
 
 var era = "AD"
 
+// Refactoring the code
 func main() {
 	year := 2018
 	month := rand.Intn(12) + 1
