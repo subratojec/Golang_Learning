@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
-type Planets []string
+type Planets []string // Planets type is a slice of strings
 
+// terraform is a method with the Planets type as the receiver
 func (p Planets) terraform() {
 	for i := range len(p) {
 		p[i] = "New " + p[i]
