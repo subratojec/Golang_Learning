@@ -1,0 +1,7 @@
+Errors are values.
+Don't just check erros, handle them gracefully.
+Don't Panic
+Make the zero value useful.
+The Bigger the interface, the weaker the abstraction.
+interface{} says nothing.
+Documentation is for users.
